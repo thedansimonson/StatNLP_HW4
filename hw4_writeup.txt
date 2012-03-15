@@ -1,0 +1,67 @@
+#############
+# Problem 1 #
+#############
+   
+   Transition Probabilities (column given row)
+                 <S>       ADJ       DET         N        PN      PREP         V
+       <S>       0.0       0.0   0.55556       0.0   0.44444       0.0       0.0
+       ADJ       0.0       0.0       0.0       1.0       0.0       0.0       0.0
+       DET       0.0   0.11111       0.0   0.88889       0.0       0.0       0.0
+         N       0.2       0.0       0.0       0.0      0.05       0.5       0.3
+        PN   0.28571       0.0       0.0   0.07143       0.0   0.28571   0.35714
+      PREP       0.0       0.0   0.46667       0.0   0.53333       0.0       0.0
+         V   0.09091       0.0   0.63636       0.0   0.09091   0.09091       0.0
+
+   Emission Probabilities (column given row)
+                   a        anbinoculars     books   buffalo  catwoman   clothes
+       ADJ       0.0       0.0       0.0       0.0       0.0       0.0       0.0
+       DET   0.69231   0.07692       0.0       0.0       0.0       0.0       0.0
+         N       0.0       0.0       0.0       0.0       0.2       0.0       0.1
+        PN       0.0       0.0       0.3       0.0       0.3       0.4       0.0
+      PREP       0.0       0.0       0.0       0.0       0.0       0.0       0.0
+         V       0.0       0.0       0.0      0.25     0.125       0.0       0.0
+
+                dust    kissed       man        on      open     patty       saw
+       ADJ       0.0       0.0       0.0       0.0       1.0       0.0       0.0
+       DET       0.0       0.0       0.0       0.0       0.0       0.0       0.0
+         N       0.1       0.0       0.6       0.0       0.0       0.0       0.3
+        PN       0.0       0.0       0.0       0.0       0.0       0.1       0.0
+      PREP       0.0       0.0       0.0       0.5       0.0       0.0       0.0
+         V       0.0     0.125       0.0       0.0     0.125       0.0      0.75
+
+           spiderman    sticks       the      tree      with     woman
+       ADJ       0.0       0.0       0.0       0.0       0.0       0.0
+       DET       0.0       0.0   0.69231       0.0       0.0       0.0
+         N       0.0       0.1       0.0       0.4       0.0       0.4
+        PN       0.3       0.0       0.0       0.0       0.0       0.0
+      PREP       0.0       0.0       0.0       0.0      0.75       0.0
+         V       0.0       0.0       0.0       0.0       0.0       0.0
+
+#############
+# Problem 2 #
+#############
+
+
+#############
+# Problem 3 #
+#############
+The sums at the bottom fit into three groups. The first group (columns J and K) represents the 
+expected number of days we were in state C or H. There are 33 days, so these add up to 33. 
+
+The second group represents the joint probabilities of both reaching C or H and eating 1, 2, 
+or 3 ice creams at the end of a day. There are six of these (columns L,M,N,O,P,Q) to represent 
+all the combinations of our possibilities. These, again, add up to 33 days for all the days ice 
+cream was eaten. 
+
+The third group contains transition probabilities given a particular state. 
+There are four possible transitions (C to C), (H to H), (C to H), and (H to C).
+Their sum is 32 since there are only 32 transitions between 33 states.
+
+Our emissions estimations emerge from simple realizations of the formula:
+	P(X|Y) = P(X & Y) / P(Y)
+So, for example, P(1|C) = L60/J60 = P(C & 1) / P(C) 
+
+These new estimations of the probabilities are reintroduced in the same way that the initial
+parameters were applied; that is, the values of a(C), a(H), b(C), and b(H) are recalculated 
+based on the new parameters. This process is this repeated until a satisfactory level of 
+precision has been reached.
