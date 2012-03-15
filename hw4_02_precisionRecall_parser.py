@@ -32,14 +32,15 @@ for each in testPairs[resume:]:
 		print ideal
 		print parsed
 		print ideal == parsed
-
+	except KeyboardInterrupt:
+		sys.exit()
 	except:
 		print "!!!!!Error during comparison!!!!!!"
 		print sys.exc_info()
 		print "Index: "+str(index)
 		print ideal
 		print "!!!!!Error during comparison!!!!!!"
-		parsed = "Fail\n"+ideal+"\n\n"+str(sys.exc_info())
+		parsed = "Fail\n"+str(ideal)+"\n\n"+str(sys.exc_info())
 	
 	#save parse to accumulate for later evaluation
 	#and in case script crashes
