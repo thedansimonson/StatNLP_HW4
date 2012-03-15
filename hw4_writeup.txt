@@ -1,7 +1,21 @@
+Dan Simonson
+StatNLP Homework 4
+E Graham Katz
+13 March 2012
+
 #############
 # Problem 1 #
 #############
-   
+Files:
+hw4_01_delta.jpg, hw4_01_delta2.jpg
+	My Viterbi table and POS tagging.
+hw4_01.py
+	The script used to generate the Transition and Emission probability tables below.
+tagseq.txt
+	The tag sequence used by hw4_01.py
+
+Outputs:
+
    Transition Probabilities (column given row)
                  <S>       ADJ       DET         N        PN      PREP         V
        <S>       0.0       0.0   0.55556       0.0   0.44444       0.0       0.0
@@ -49,7 +63,25 @@ calculation tables, the error was made in duplication, not calculation.
 #############
 # Problem 2 #
 #############
+hw4_02_precisionRecall.py
+	This is a precision/recall measure program of the parser.
+hw4_02_run.py
+	This is a small program that parses single, user-input sentences. Intended for testing
+	purposes. If you use this , be sure that you 're putting spaces between everything 
+	like this well-tokenized sentence .
+hw4_02_unittest.py
+	An early attempt at evaluating the parser.
+hw4_02.py
+	Generates a parser; saves it to hw4_vitParser.pkl
+hw4_testTrees.pkl
+	The 10% of the PTB excluded for testing purposes.
+hw4_vitParser.pkl
+	The saved version of the parser.
 
+Necessary files that weren't included:
+/POS/
+	A directory from the PTB provided for this assignment. Used to add the lexicon to the 
+	parser. Skipped because of the large size.
 
 #############
 # Problem 3 #
