@@ -37,6 +37,15 @@
       PREP       0.0       0.0       0.0       0.0      0.75       0.0
          V       0.0       0.0       0.0       0.0       0.0       0.0
 
+The delta tables and calculations to derive them are available in 
+hw4_01_delta.jpg and hw4_01_delta2.jpg . The result for the "buffalo 
+buffalo..." parse: PN V PN V PN. 
+
+Note that I made a mistake on the original calculation of the table. 
+However, luckily, I merely wrote the result for PN in the N row, so 
+assuming that change produces the correct result. As visible in the
+calculation tables, the error was made in duplication, not calculation.
+
 #############
 # Problem 2 #
 #############
