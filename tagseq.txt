@@ -1,0 +1,93 @@
+<S>
+DET the
+N sticks
+V buffalo
+N saw
+N dust
+PREP on
+PN catwoman
+<S>
+DET the
+ADJ open
+N buffalo
+PREP on
+DET a
+N man
+V open
+DET a
+N man
+PREP on
+DET the
+N saw
+PREP with
+PN spiderman
+N clothes
+<S>
+DET a
+N buffalo
+V books
+DET an
+ADJ open
+N tree
+PREP with
+DET the
+N man
+<S>
+PN catwoman
+V kissed
+DET a
+N tree
+PREP with
+PN binoculars
+PREP with
+DET a
+N woman
+<S>
+DET a
+N tree
+V saw
+PREP with
+DET the
+N woman
+PREP on
+PN patty
+<S>
+PN buffalo
+V saw
+DET the
+N woman
+PN binoculars
+V saw
+DET a
+N man
+V saw
+PN spiderman
+PREP with
+PN spiderman
+PREP with
+DET the
+N tree
+PREP on
+DET a
+N man
+<S>
+PN catwoman
+V saw
+DET the
+N man
+PREP with
+PN catwoman
+PREP with
+PN binoculars
+<S>
+DET the
+N saw
+V books
+DET a
+N woman
+PREP on
+PN buffalo
+<S>
+PN buffalo
+V saw
+<S>
