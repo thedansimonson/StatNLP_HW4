@@ -15,8 +15,7 @@ tagseq.txt
 	The tag sequence used by hw4_01.py
 
 Outputs:
-
-   Transition Probabilities (column given row)
+   Transition Probabilities (column given row, so P(DET|V)=0.636)
                  <S>       ADJ       DET         N        PN      PREP         V
        <S>       0.0       0.0   0.55556       0.0   0.44444       0.0       0.0
        ADJ       0.0       0.0       0.0       1.0       0.0       0.0       0.0
@@ -63,8 +62,12 @@ calculation tables, the error was made in duplication, not calculation.
 #############
 # Problem 2 #
 #############
+Files:
 hw4_02_precisionRecall.py
 	This is a precision/recall measure program of the parser.
+hw4_02_precisionRecall_parser.py
+	Parses sentences for precisionRecall.py. Saves every sentence after parsing so that
+	parsing can resume later and/or apply them in the precision/recall calcuations.
 hw4_02_run.py
 	This is a small program that parses single, user-input sentences. Intended for testing
 	purposes. If you use this , be sure that you 're putting spaces between everything 
@@ -77,11 +80,24 @@ hw4_testTrees.pkl
 	The 10% of the PTB excluded for testing purposes.
 hw4_vitParser.pkl
 	The saved version of the parser.
-
-Necessary files that weren't included:
 /POS/
 	A directory from the PTB provided for this assignment. Used to add the lexicon to the 
 	parser. Skipped because of the large size.
+
+Outputs:
+
+Write-up:
+I'm disappointed with how slow this thing is. Most of my code hasn't been to handle the tasks 
+at hand but to deal with issues regarding performance and to accept the reality of the slow
+parser. There are three main parts here:
+	hw4_02.py creates the parser--loading the Treebank, extra lexical items, filtering and
+		modifying appropriately, then storing in a pickled file: hw4_vitParser.pkl. 
+	hw4_02_precisionRecall_parser.py uses the parser provided to create pickled parses of 
+		the sentences in hw4_testTrees.pkl.
+	hw4_02_precisionRecall.py calculates the precision and recall of the sentences based on
+		the parses pickled *_parser.py.
+
+The results of hw4_02_precisionRecall.py are provided in Outputs above. 
 
 #############
 # Problem 3 #
