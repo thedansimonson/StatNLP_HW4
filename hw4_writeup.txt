@@ -97,7 +97,28 @@ parser. There are three main parts here:
 	hw4_02_precisionRecall.py calculates the precision and recall of the sentences based on
 		the parses pickled *_parser.py.
 
-The results of hw4_02_precisionRecall.py are provided in Outputs above. 
+The results of hw4_02_precisionRecall.py are provided in Outputs above.
+
+To compensate for the slow parsing time, I did some poor-man's cloud computing. Using the 
+github repository for assignment, I cloned the necessary data files into all of the severs I 
+had access to:
+	discverb.com (my personal server)
+	armstrong
+	The Amazon AWS server for XFST from last semester.
+In addition to multiple computers I own:
+	My HP Desktop
+	My Dell Laptop
+	My Macbook Air
+The Dell I used to maintain connection to the servers, and I kept it hard-wired to an ethernet
+connection just in case. 
+
+
+I distributed the sentences as follows, based on a quick speed test:
+
+
+The only baseline I had for parsetime was 20 minutes. I had 397 sentences to parse. This 
+translated to roughly 132 hours of computer time, or 22 hours across 6 computers, assuming no
+problems. 
 
 #############
 # Problem 3 #
