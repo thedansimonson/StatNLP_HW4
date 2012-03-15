@@ -50,6 +50,6 @@ for each in testPairs[resume:]:
 	print "DO NOT EXIT UNTIL NEXT MESSAGE APPEARS"
 	dump(parsed, open(parseFolder+"/"+filename, "w"))
 	print "THIS IS THE NEXT MESSAGE. YOU CAN QUIT IF YOU HAVE TO."
-	print "Time elapsed: "+str(start-datetime.now())
+	print "Time elapsed: "+str(datetime.now()-start)
 	print ""
 
