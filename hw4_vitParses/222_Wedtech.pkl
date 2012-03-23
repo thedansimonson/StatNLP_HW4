@@ -1,0 +1,3 @@
+S'Fail\n(S\n  (NP-SBJ (NP (NNP Wedtech) (POS \'s)) (NNS scammers))\n  (ADVP (RB simply))\n  (VP\n    (VBD bribed)\n    (S (NP-SBJ (PRP them)) (VP (TO to) (VP (VB shut) (PRT (IN up))))))\n  (. .))\n\n(<type \'exceptions.AttributeError\'>, AttributeError("\'Tree\' object has no attribute \'prob\'",), <traceback object at 0x119ca03b0>)'
+p0
+.

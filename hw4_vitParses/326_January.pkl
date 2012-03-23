@@ -1,0 +1,3 @@
+S'Fail\n(S\n  (NP-SBJ (NNP January) (NN platinum))\n  (VP\n    (VBD was)\n    (PP-PRD\n      (IN down)\n      (NP\n        (NP ($ $) (CD 5.70) (-NONE- *U*))\n        (NP-ADV (DT an) (NN ounce))))\n    (PP-CLR (IN at) (NP ($ $) (CD 494.50) (-NONE- *U*))))\n  (. .))\n\n(<type \'exceptions.ValueError\'>, ValueError(\'Grammar does not cover some of the input words: "\\\'5.70\\\', \\\'494.50\\\'".\',), <traceback object at 0x12be12560>)'
+p0
+.

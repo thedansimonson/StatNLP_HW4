@@ -1,0 +1,12 @@
+REDUP = {
+			1 iff syllable reduplicate
+			0 iff non-reduplicate 
+				}
+
+rho_REDUP = {
+				1/8 chance of reduplicate
+				7/8 otherwise
+					}
+
+REDUPS = {
+			

@@ -14,7 +14,13 @@ sentences=["Go .",
 			"I ride a bike up there .",
 			"I ride a bike up a hill .",
 			"I ride a bike up a hill slowly .",
-			"I ride a bike up a big hill slowly ."]
+			"I ride a bike up a big hill slowly .",
+			"I ride a bike up a hill with my brother .",
+			"I ride a bike up a hill with my big brother .",
+			"I ride a bike up a hill , and I ride fast .",
+			"I ride a bike up a hill , and I ride fast alone .",
+			"I ride a bike up a hill , and I ride fast down there .",
+			"I ride a bike up a hill , and I ride fast down some stairs ."]
 
 times = []
 for each in sentences:

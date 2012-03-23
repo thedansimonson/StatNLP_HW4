@@ -1,0 +1,3 @@
+S'Fail\n(S\n  (NP-SBJ (DT These) (NNS imports))\n  (VP\n    (VBD totaled)\n    (NP (QP (IN about) ($ $) (CD 17) (CD million)) (-NONE- *U*))\n    (NP-TMP (JJ last) (NN year)))\n  (. .))\n\n(<type \'exceptions.AttributeError\'>, AttributeError("\'Tree\' object has no attribute \'prob\'",), <traceback object at 0x10d284e18>)'
+p0
+.

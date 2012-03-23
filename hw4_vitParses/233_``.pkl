@@ -1,0 +1,3 @@
+S'Fail\n(S\n  (`` ``)\n  (NP-SBJ (NNP Feeding) (NNP Frenzy))\n  (\'\' \'\')\n  (VP (VBZ does) (VP (VB provide) (NP (DT a) (JJ few) (NNS clues))))\n  (. .))\n\n(<type \'exceptions.AttributeError\'>, AttributeError("\'Tree\' object has no attribute \'prob\'",), <traceback object at 0x10b536050>)'
+p0
+.

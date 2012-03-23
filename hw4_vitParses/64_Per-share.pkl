@@ -1,0 +1,3 @@
+S'Fail\n(S\n  (NP-SBJ (JJ Per-share) (NN net))\n  (VP\n    (VBD rose)\n    (PP-DIR (TO to) (NP (CD 7.84) (NN yen)))\n    (PP-DIR (IN from) (NP (CD 6.53) (NN yen))))\n  (. .))\n\n(<type \'exceptions.ValueError\'>, ValueError(\'Grammar does not cover some of the input words: "\\\'7.84\\\', \\\'6.53\\\'".\',), <traceback object at 0x119e85320>)'
+p0
+.

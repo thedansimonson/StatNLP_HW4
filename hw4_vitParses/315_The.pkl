@@ -1,0 +1,3 @@
+S'Fail\n(S\n  (NP-SBJ (DT The) (NNP Soviet) (NNP Union))\n  (ADVP (RB usually))\n  (VP\n    (VBZ begins)\n    (S\n      (NP-SBJ (-NONE- *))\n      (VP\n        (VBG buying)\n        (NP (NNP U.S.) (NNS crops))\n        (ADVP-TMP (JJR earlier) (PP (IN in) (NP (DT the) (NN fall)))))))\n  (. .))\n\n(<type \'exceptions.AttributeError\'>, AttributeError("\'Tree\' object has no attribute \'prob\'",), <traceback object at 0x10d2bc7e8>)'
+p0
+.

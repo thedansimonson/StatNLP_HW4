@@ -1,0 +1,3 @@
+S'Fail\n(NP\n  (NP (NNS Bonds))\n  (: :)\n  (NP\n    (NP\n      (NNP Shearson)\n      (NNP Lehman)\n      (NNP Hutton)\n      (NNP Treasury)\n      (NN index))\n    (NP (NP (CD 3436.58)) (, ,) (ADVP (RB up)))))\n\n(<type \'exceptions.ValueError\'>, ValueError(\'Grammar does not cover some of the input words: "\\\'3436.58\\\'".\',), <traceback object at 0x119e85ab8>)'
+p0
+.

@@ -1,0 +1,3 @@
+S'Fail\n(S\n  (NP-SBJ (DT An) (NN airline) (NN buy-out) (NN bill))\n  (VP\n    (VBD was)\n    (VP\n      (VBN approved)\n      (NP (-NONE- *))\n      (PP (IN by) (NP-LGS (DT the) (NNP House)))))\n  (. .))\n\n(<type \'exceptions.AttributeError\'>, AttributeError("\'Tree\' object has no attribute \'prob\'",), <traceback object at 0x10d284ef0>)'
+p0
+.

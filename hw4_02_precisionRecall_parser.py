@@ -10,18 +10,23 @@ testSents = map(lambda x: map(lambda y: y[0], x.pos()), testTrees)
 
 #prepare all data for the loop
 testPairs = zip(testSents, testTrees, range(0, len(testTrees)))
-#testPairs.sort(key = lambda x: len(x[0]))
+testPairs.sort(key = lambda x: len(x[0])) #do in stored order or in sentence order
+
+print testPairs[0]
 
 #determine where parsing should continue based on the saved parse files
 parseFolder = getcwd()+"/hw4_vitParses"
+"""
 getPaths = lambda x: map(lambda y: x[0]+"/"+y, x[2])
 complexPaths = map(lambda x: x, walk(parseFolder))
 paths = reduce(lambda x,y: x+getPaths(y), [[]]+complexPaths)
 
 resume = len(paths)
 print "Resuming parse at "+str(resume)
+testPairs = testPairs[resume:]
+"""
 
-for each in testPairs[resume:]:
+for each in testPairs:
 	rawSent, ideal, index = each
 	print "Working on "+str(index)+":\n"+" ".join(rawSent)
 	start = datetime.now()

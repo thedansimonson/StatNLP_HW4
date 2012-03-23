@@ -1,0 +1,3 @@
+S'Fail\n(NP\n  (NP (JJ Average) (JJ daily) (NN trading) (NN volume))\n  (: :)\n  (NP (CD 83,206) (NNS shares)))\n\n(<type \'exceptions.ValueError\'>, ValueError(\'Grammar does not cover some of the input words: "\\\'83,206\\\'".\',), <traceback object at 0x12abb3098>)'
+p0
+.
